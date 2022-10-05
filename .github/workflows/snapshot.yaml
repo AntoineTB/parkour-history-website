@@ -23,7 +23,9 @@ jobs:
     - name: Run Snapshot
       env:
         PG_CONNECTION_URL: "${{secrets.PG_CONNECTION_URL}}"
-      run: node index.js
+      run: |
+        cd ./jobs/snapshot
+        node index.js
 
     - name: Commit changes
       uses: EndBug/add-and-commit@v8
