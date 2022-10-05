@@ -3,6 +3,8 @@ dotenv.config();
 import knex from "knex";
 import { writeFile } from "fs/promises";
 
+console.log(process.env.PG_CONNECTION_URL.slice(0,8));
+
 const db = knex({
   client: "pg",
   connection: process.env.PG_CONNECTION_URL,
