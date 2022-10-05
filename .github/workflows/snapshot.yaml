@@ -5,6 +5,8 @@ on:
 
 jobs:
   build:
+    env:
+      PG_CONNECTION_URL: "${{secrets.PG_CONNECTION_URL}}"
 
     runs-on: ubuntu-latest
 
@@ -16,22 +18,11 @@ jobs:
         ref: ${{ github.head_ref }}
 
     - name: Setup app dependencies
-      env:
-        PGDATABASE: "${{secrets.PGDATABASE}}"
-        PGHOST: "${{secrets.PGHOST}}"
-        PGPASSWORD: "${{secrets.PGPASSWORD}}"
-        PGPORT: "${{secrets.PGPORT}}"
-        PGUSER: "${{secrets.PGUSER}}"
       run: |
-        apt-get update
-        apt-get install --yes postgresql-client
-        PGPASSWORD=$PGPASSWORD psql -h "$PGHOST" -U "$PGUSER" -d "$PGDATABASE" -l
         cd ./jobs/snapshot
         npm install
 
     - name: Run Snapshot
-      env:
-        PG_CONNECTION_URL: "${{secrets.PG_CONNECTION_URL}}"
       run: |
         cd ./jobs/snapshot
         node index.js
