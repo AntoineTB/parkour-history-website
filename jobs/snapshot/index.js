@@ -9,7 +9,6 @@ const db = knex({
   client: "pg",
   connection: process.env.PG_CONNECTION_URL,
   // searchPath: ['knex', 'public'],
-  pool: { min: 0, max: 2 },
 });
 
 try {
