@@ -22,6 +22,7 @@ jobs:
     
     - name: Debug networking
       run: |
+        sudo apt-get install nslookup
         nslookup parkour-history-pg-prod.chfcrg2vxvx9.us-east-2.rds.amazonaws.com
 
     - name: Run Snapshot
