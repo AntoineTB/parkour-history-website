@@ -9,11 +9,11 @@ jobs:
     runs-on: ubuntu-latest
 
     container: node:16-bullseye
-    with:
-      ref: ${{ github.head_ref }}
     
     steps:
     - uses: actions/checkout@v2
+      with:
+        ref: ${{ github.head_ref }}
 
     - name: Setup app dependencies
       run: |
