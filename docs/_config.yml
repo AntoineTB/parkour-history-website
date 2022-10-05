@@ -56,7 +56,7 @@ plugins:
 
 author:
   name   : "Parkour History"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/bio-photo.jpeg"
   bio    : "Safekeeping parkour videos and culture forever."
   links:
     - label: "Instagram"
