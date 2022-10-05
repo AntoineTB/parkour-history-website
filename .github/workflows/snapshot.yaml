@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-    - master
+    - main
 
 jobs:
   build:
@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
 
     container: node:16-bullseye
+    with:
+      ref: ${{ github.head_ref }}
     
     steps:
     - uses: actions/checkout@v2
@@ -20,5 +22,14 @@ jobs:
 
     - name: Run Snapshot
       with:
-          PG_CONNECTION_URL: "${{secrets.PG_CONNECTION_URL}}"
+        PG_CONNECTION_URL: "${{secrets.PG_CONNECTION_URL}}"
       run: npm run start
+
+    - name: Commit changes
+      uses: EndBug/add-and-commit@v8
+      with:
+        author_name: Parkour History Bot
+        author_email: parkour.history.archiver@gmail.com
+        message: 'Update Snapshot'
+        add: '../../docs/_data/snapshot.json'
+        push: true
