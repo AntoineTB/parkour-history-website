@@ -16,13 +16,22 @@ jobs:
         ref: ${{ github.head_ref }}
 
     - name: Setup app dependencies
+      env:
+        PGDATABASE: "${{secrets.PGDATABASE}}"
+        PGHOST: "${{secrets.PGHOST}}"
+        PGPASSWORD: "${{secrets.PGPASSWORD}}"
+        PGPORT: "${{secrets.PGPORT}}"
+        PGUSER: "${{secrets.PGUSER}}"
       run: |
         apt-get update
+        apt-get install --yes postgresql
         apt-get install --yes postgresql-client
         apt-get install --yes dnsutils
         nslookup parkour-history-pg-prod.chfcrg2vxvx9.us-east-2.rds.amazonaws.com
+        psql -h "$PGHOST" -U "$PGUSER" -d "$PGDATABASE" -l
         cd ./jobs/snapshot
         npm install
+
 
     - name: Run Snapshot
       env:
