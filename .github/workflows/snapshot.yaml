@@ -19,7 +19,7 @@ jobs:
       run: |
         apt-get update
         apt-get install --yes postgresql-client
-        apt-get install --yes nslookup
+        apt-get install --yes dnsutils
         nslookup parkour-history-pg-prod.chfcrg2vxvx9.us-east-2.rds.amazonaws.com
         cd ./jobs/snapshot
         npm install
