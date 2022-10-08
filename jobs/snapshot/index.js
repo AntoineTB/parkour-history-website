@@ -5,8 +5,10 @@ import { writeFile } from "fs/promises";
 
 const ARCHIVED_VIDEOS_COUNT =
   "SELECT sum(1) AS n FROM video WHERE archived = TRUE";
+const WAITING_VIDEOS_COUNT =
+  "SELECT sum(1) AS n FROM video WHERE archived = FALSE and attempts < 25 ";
 const STUCK_VIDEOS =
-  "SELECT sum(1) as n from video where archived = false and attempts > 100";
+  "SELECT sum(1) as n from video where archived = false and attempts > 25";
 const TOTAL_RUNTIME = `
   SELECT
     ROUND(cast(SUM(duration::float) / 3600 as numeric ),2) as hours,
@@ -31,6 +33,7 @@ const db = knex({
 
 try {
   const archivedVideosCount = (await db.raw(ARCHIVED_VIDEOS_COUNT)).rows[0].n;
+  const waitingVideosCount = (await db.raw(WAITING_VIDEOS_COUNT)).rows[0].n;
   const stuckVideos = (await db.raw(STUCK_VIDEOS)).rows[0].n;
   const totalRuntime = (await db.raw(TOTAL_RUNTIME)).rows[0];
   const lastArchived = (await db.raw(LAST_ARCHIVED)).rows[0];
@@ -38,6 +41,7 @@ try {
   const content = JSON.stringify({
     updated: new Date(),
     archivedVideosCount,
+    waitingVideosCount,
     stuckVideos,
     totalRuntime,
     lastArchived,
