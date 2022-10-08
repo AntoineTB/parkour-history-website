@@ -47,7 +47,7 @@ title: "Operations"
     {% for entry in site.data.snapshot.workersHealthCheck %}
     <tr>
         <td>{{ entry.worker }}</td>
-        <td>{{ entry.last_seen }}</td>
+        <td>{{ entry.last_seen | date: "%Y-%m-%d %H:%M:%S" }}</td>
     </tr>
     {% endfor %}
 </table>
