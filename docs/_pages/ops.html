@@ -41,13 +41,13 @@ title: "Operations"
 
 <table>
     <tr>
-        <td>Bot Name</td>
-        <td>Last Seen</td>
+        <th>Bot Name</th>
+        <th>Last Seen</th>
     </tr>
     {% for entry in site.data.snapshot.workersHealthCheck %}
     <tr>
         <td>{{ entry.worker }}</td>
-        <td>{{ entry.lastSeen }}</td>
+        <td>{{ entry.last_seen }}</td>
     </tr>
     {% endfor %}
 </table>
