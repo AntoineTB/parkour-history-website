@@ -3,23 +3,37 @@ permalink: /ops
 title: "Operations"
 ---
 
-Here's some operational metrics and system health overview, mostly useful for checking how the bots are doing.
+<p>Here's some operational metrics and system health overview, mostly useful for checking how the bots are doing.</p>
 
-## General
+<h2>General</h2>
 
-|What|Details|
-|-|-|
-| Last updated    | {{ site.data.snapshot.updated                                                         | date: "%Y-%m-%d %H:%M:%S" }} |
-| Videos archived | {{ site.data.snapshot.archivedVideosCount }}                                          |
-| Videos waiting | {{ site.data.snapshot.waitingVideosCount }}                                          |
-| Last archived   | <a href="{{ site.data.snapshot.lastArchived.url }}" target=_blank>{{ site.data.snapshot.lastArchived.url }} </a> at {{site.data.snapshot.lastArchived.lockExpiry | date: "%Y-%m-%d %H:%M:%S" }} |
-| Stuck videos    | {{ site.data.snapshot.stuckVideos }}                                                  |
+<table>
+<tr>
+<td>Last updated</td>
+    <td>{{ site.data.snapshot.updated                                                         | date: "%Y-%m-%d %H:%M:%S" }} </td>
+    </tr>
+<tr>
+<td>Videos archived</td>
+    <td>{{ site.data.snapshot.archivedVideosCount }}                                          </td>
+    </tr>
+<tr>
+<td>Videos waiting</td>
+    <td>{{ site.data.snapshot.waitingVideosCount }}                                          </td>
+    </tr>
+<tr>
+<td>Last archived</td>
+    <td><a href="{{ site.data.snapshot.lastArchived.url }}" target=_blank>{{ site.data.snapshot.lastArchived.url }} </a> at {{site.data.snapshot.lastArchived.lockExpiry | date: "%Y-%m-%d %H:%M:%S" }} </td>
+    </tr>
+<tr>
+<td>Stuck videos</td>
+    <td>{{ site.data.snapshot.stuckVideos }}                                                  </td>
+    </tr>
 
-## Bots
+<h2>Bots</h2>
 
 | Bot Name | Last Seen |
 | -------- | --------- |
+
 {% for entry in site.data.snapshots.workersHealthCheck %}
 |{{entry.worker}}|{{entry.last_seen}}|
 {% endfor %}
-
