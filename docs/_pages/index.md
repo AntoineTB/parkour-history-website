@@ -22,7 +22,7 @@ Furthermore, copyright law is broken and YouTube's system is barely any better. 
 
 Videos and channels are curated by humans and bots take care of the rest: downloading the videos and saving them in a long-term storage archiving solution. 
 
-More than {{ site.data.snapshot.archivedVideosCount | decimals: 0, "en-US" }} videos are now archived in this manner, with new ones added every day. It would take {{ site.data.snapshot.totalRuntime.hours | round | decimals: 0, "en-US" }} hours to watch the archive back to back.
+More than {{ site.data.snapshot.archivedVideosCount | intcomma }} videos are now archived in this manner, with new ones added every day. It would take {{ site.data.snapshot.totalRuntime.hours | round | intcomma }} hours to watch the archive back to back.
 
 Currently the bot only works with YouTube videos. Instagram is the next target for development. As the project grows, multiple archiving solutions might be spun up in parallel for resiliency.
 
