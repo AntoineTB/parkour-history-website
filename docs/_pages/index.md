@@ -4,7 +4,7 @@ title: "About this project"
 ---
 
 Videos are the core of parkour's culture. They're how we share movement and they shape how we move. 
-Parkour History's goal is to archive all parkour videos so that none are lost and so our culture lasts.
+*Parkour History*'s goal is to archive all parkour videos so that none are lost and so our culture lasts.
 
 ## Why archive parkour videos?
 
@@ -16,11 +16,11 @@ Furthermore, copyright law is broken and YouTube's system is barely any better. 
 
 ![YouTube video taken down due to copyright issue](/assets/images/blocked_copyright.png)
 
-Parkour History is not pushing for parkour athletes to move out of YouTube and Instagram. While the issues with those platforms will most probably not go away, it might also not become worse. In the meantime they offer an incredible opportunity for athletes to connect with a global fanbase and showcase their work for free.
+*Parkour History* is not pushing for parkour athletes to move out of YouTube and Instagram. While the issues with those platforms will most probably not go away, it might also not become worse. In the meantime they offer an incredible opportunity for athletes to connect with a global fanbase and showcase their work for free.
 
 ## So what does Parkour History do?
 
-Parkour History is building an archive. Videos and channels are curated by humans and bots take care of the rest: downloading the videos and saving them in a long-term storage archiving solution. More than {{ site.data.snapshot.archivedVideosCount | numberWithDelimiter: 'en-us', 'whole' }} videos are now archived in this manner, with more added every day. It would take {{ site.data.snapshot.totalRuntime.hours | round | numberWithDelimiter: 'en-us', 'whole' }} hours to watch the archive back to back.
+Parkour History is building an archive. Videos and channels are curated by humans and bots take care of the rest: downloading the videos and saving them in a long-term storage archiving solution. More than {{ site.data.snapshot.archivedVideosCount | number_with_delimiter }} videos are now archived in this manner, with new ones added every day. It would take {{ site.data.snapshot.totalRuntime.hours | round | number_with_delimiter }} hours to watch the archive back to back.
 
 Currently the bot only works with YouTube videos. Instagram is the next target for development. As the project grows, multiple archiving solutions might be spun up in parallel for resiliency.
 
