@@ -17,11 +17,11 @@ title: "Operations"
     </tr>
     <tr>
         <td>Videos archived</td>
-        <td>{{ site.data.snapshot.archivedVideosCount }}</td>
+        <td>{{ site.data.snapshot.archivedVideosCount | default: 0 }}</td>
     </tr>
     <tr>
         <td>Videos waiting</td>
-        <td>{{ site.data.snapshot.waitingVideosCount }}</td>
+        <td>{{ site.data.snapshot.waitingVideosCount | default: 0 }}</td>
     </tr>
     <tr>
         <td>Last archived</td>

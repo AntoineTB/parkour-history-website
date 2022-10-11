@@ -31,7 +31,7 @@ jobs:
       uses: EndBug/add-and-commit@v8
       with:
         author_name: Parkour History Bot
-        author_email: parkour.history.archiver@gmail.com
+        author_email: parkour.history.project@gmail.com
         message: 'Update Snapshot'
         add: './docs/_data/snapshot.json'
         push: true

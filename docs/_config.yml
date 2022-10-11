@@ -14,11 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Parkour History
-email:
+email: parkour.history.project@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   "Parkour History is an archive of parkour videos and parkour-related media that aims to safekeep parkour's culture forever."
 github_username: antoinetb
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: neon
 search: true
 
 # Build settings
@@ -61,14 +61,14 @@ author:
   links:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/parkourhistory"
     - label: "Youtube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UCuoblkrJAGbWrjYcwTDEY7g/featured"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://parkourhistory.com"
-
+    - label: "Email"
+      icon: "fab fa-fw fa-email"
+      url: "mailto:parkour.history.project@gmail.com"
+    
 footer:
   links:
     - label: "Youtube"
@@ -89,10 +89,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
+      read_time: false
+      comments: false
       share: true
-      related: true
+      related: false
   # _pages
   - scope:
       path: "_pages"

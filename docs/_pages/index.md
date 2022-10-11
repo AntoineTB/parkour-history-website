@@ -29,3 +29,7 @@ Currently the bot only works with YouTube videos. Instagram is the next target f
 The archive also support manual uploads, notably to hosts feature-length or paid parkour movies, and things that are not in video format. 
 
 The archived content is not redistributed nor used for rehosting at this time.
+
+## I have questions about this project
+
+Feel free to reach out at [{{ site.email }}](mailto:{{ site.email }}).
