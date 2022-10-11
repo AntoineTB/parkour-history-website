@@ -66,7 +66,7 @@ author:
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UCuoblkrJAGbWrjYcwTDEY7g/featured"
     - label: "Email"
-      icon: "fab fa-fw fa-email"
+      icon: "fa fa-fw fa-email"
       url: "mailto:parkour.history.project@gmail.com"
     
 footer:
