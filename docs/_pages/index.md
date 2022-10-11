@@ -3,14 +3,14 @@ permalink: /
 title: "About this project"
 ---
 
-Videos are the core of parkour's culture. They're how we share movement and they shape how we move. 
+Videos are the core of parkour's culture. They're how we share movement and in turn they shape how we move. 
 *Parkour History*'s goal is to archive all parkour videos so that none are lost and so our culture lasts.
 
 ## Why archive parkour videos?
 
 As a community and culture, parkour has put all its eggs in too few baskets. Centralized platforms like YouTube (Google) and Instagram (Facebook) host our content for free, but also with no guarantees. While we benefit from their reach and ease-of-use, we need to keep in mind that those close gardens have their own interest at heart and may delete our videos whenever they please, without any warnings. They've shown again and again that they are greedy and conservative.
 
-The reason is quite simple: money. Advertisers and payment processors (ie. Visa) do not want to be associated with moraly repehensible or criminal content. While parkour is not criminal per say, it is sometimes performed on private property and rooftops, which is trespassing. It also can look dangerous, especially on successfull channels. This is enough to have it flagged as borderline unacceptable content, which leads to demonetization and content removal. This problem became obvious in early 2019 when YouTube [demonetized STORROR](https://www.youtube.com/watch?v=Z-fTJ2UWJ4I).
+The reason is quite simple: money. Advertisers and payment processors (ie. Visa) do not want to be associated with moraly repehensible or criminal content. While parkour is not criminal per say, it is sometimes performed on private property and rooftops, which is trespassing. It also looks dangerous, especially on successfull channels. This is enough to have it flagged as borderline unacceptable content, which leads to demonetization and content removal. This problem became obvious in early 2019 when YouTube [demonetized STORROR](https://www.youtube.com/watch?v=Z-fTJ2UWJ4I).
 
 Furthermore, copyright law is broken and YouTube's system is barely any better. This in turn leads to video takedowns, which looks like this:
 
@@ -22,7 +22,7 @@ Furthermore, copyright law is broken and YouTube's system is barely any better. 
 
 Videos and channels are curated by humans and bots take care of the rest: downloading the videos and saving them in a long-term storage archiving solution. 
 
-More than {{ site.data.snapshot.archivedVideosCount | intcomma }} videos are now archived in this manner, with new ones added every day. It would take {{ site.data.snapshot.totalRuntime.hours | round | intcomma }} hours to watch the archive back to back.
+More than {{ site.data.snapshot.archivedVideosCount }} videos are now archived in this manner, with new ones added every day. It would take {{ site.data.snapshot.totalRuntime.hours | round }} hours to watch the archive back to back.
 
 Currently the bot only works with YouTube videos. Instagram is the next target for development. As the project grows, multiple archiving solutions might be spun up in parallel for resiliency.
 
