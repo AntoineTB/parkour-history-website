@@ -1,9 +1,188 @@
 {
-  "expenses": [
+  "capex": [
     {
-      name: "Point A Parkour - Queen City",
-      kind: "movie",
-      when: 1654214400
-    }   
+      "name": "Point A Parkour - Queen City - Film Pre-Order Standard",
+      "kind": "movie",
+      "amount": 7.0,
+      "currency": "USD",
+      "when": "2022-06-03"
+    },
+    {
+      "name": "STORROR - ROOF CULTURE ASIA",
+      "kind": "movie",
+      "amount": 21.99,
+      "currency": "CAD",
+      "when": "2022-07-26"
+    },
+    {
+      "name": "Breach - Enter the Breach",
+      "kind": "movie",
+      "amount": 13.00,
+      "currency": "CAD",
+      "when": "2022-07-25"
+    },
+    {
+      "name": "The Motus Project - Sole Destroyer - A Parkour Film - DELUXE",
+      "kind": "movie",
+      "amount": 6.00,
+      "currency": "GBP",
+      "when": "2022-07-25"
+    },
+    {
+      "name": "The Motus Project - S.O.L - Deluxe",
+      "kind": "movie",
+      "amount": 10.00,
+      "currency": "GBP",
+      "when": "2022-07-25"
+    },
+    {
+      "name": "MuvMag - Physical copies of Müv #1 through #10",
+      "kind": "magazine",
+      "amount": 326.90,
+      "currency": "USD",
+      "when": "2022-07-06"
+    },
+    {
+      "name": "MuvMag - Subscription",
+      "kind": "platform",
+      "amount": 49.99,
+      "currency": "USD",
+      "when": "2022-07-06"
+    },
+    {
+      "name": "MuvMag - Subscription",
+      "kind": "platform",
+      "amount": 49.99,
+      "currency": "USD",
+      "when": "2023-07-06"
+    },
+    {
+      "name": "Once Is Never - Subscription",
+      "kind": "magazine",
+      "amount": 8.62,
+      "currency": "CAD",
+      "when": "2023-11-05"
+    },
+    {
+      "name": "AMPISOUND - TIMESTOP 2020 // Photo Zine",
+      "kind": "magazine",
+      "amount": 13.00,
+      "currency": "CAD",
+      "when": "2023-11-05"
+    }
+  ],
+  "opex": [
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 17.5624308179,
+      "currency": "USD",
+      "when": "2022-11-01"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 18.0580628567,
+      "currency": "USD",
+      "when": "2022-12-01"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 18.1038720644,
+      "currency": "USD",
+      "when": "2023-01-01"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 17.057008913,
+      "currency": "USD",
+      "when": "2023-02-01"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 18.4536914512,
+      "currency": "USD",
+      "when": "2023-03-01"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 18.1278831212,
+      "currency": "USD",
+      "when": "2023-04-01"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 18.5853404839,
+      "currency": "USD",
+      "when": "2023-05-01"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 18.1699826421,
+      "currency": "USD",
+      "when": "2023-06-01"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 18.6000681247,
+      "currency": "USD",
+      "when": "2023-07-01"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 18.5701466788,
+      "currency": "USD",
+      "when": "2023-08-01"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 18.1382393724,
+      "currency": "USD",
+      "when": "2023-09-01"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 18.6654488377,
+      "currency": "USD",
+      "when": "2023-10-01"
+    },
+    {
+      "what": "parkourhistory.com",
+      "kind": "website",
+      "amount": 17,
+      "currency": "CAD",
+      "when": "2023-06-08"
+    },
+    {
+      "what": "parkourhistory.com",
+      "kind": "website",
+      "amount": 17,
+      "currency": "CAD",
+      "when": "2022-06-07"
+    },
+    {
+      "what": "parkourhistory.com",
+      "kind": "website",
+      "amount": 17,
+      "currency": "CAD",
+      "when": "2021-06-07"
+    },
+    {
+      "what": "parkourarchive.com",
+      "kind": "website",
+      "amount": 24.84,
+      "currency": "CAD",
+      "when": "2023-11-05"
+    }
   ]
 }
