@@ -1,35 +1,35 @@
 {
   "capex": [
     {
-      "name": "Point A Parkour - Queen City - Film Pre-Order Standard",
+      "name": "Point A Parkour - Queen City - Film Pre-Order Standard (2022)",
       "kind": "movie",
       "amount": 7.0,
       "currency": "USD",
       "when": "2022-06-03"
     },
     {
-      "name": "STORROR - ROOF CULTURE ASIA",
+      "name": "STORROR - ROOF CULTURE ASIA (2017)",
       "kind": "movie",
       "amount": 21.99,
       "currency": "CAD",
       "when": "2022-07-26"
     },
     {
-      "name": "Breach - Enter the Breach",
+      "name": "Breach - Enter the Breach (2021)",
       "kind": "movie",
       "amount": 13.00,
       "currency": "CAD",
       "when": "2022-07-25"
     },
     {
-      "name": "The Motus Project - Sole Destroyer - A Parkour Film - DELUXE",
+      "name": "The Motus Project - Sole Destroyer - A Parkour Film - DELUXE (2020)",
       "kind": "movie",
       "amount": 6.00,
       "currency": "GBP",
       "when": "2022-07-25"
     },
     {
-      "name": "The Motus Project - S.O.L - Deluxe",
+      "name": "The Motus Project - S.O.L - Deluxe (2022)",
       "kind": "movie",
       "amount": 10.00,
       "currency": "GBP",
@@ -69,6 +69,104 @@
       "amount": 13.00,
       "currency": "CAD",
       "when": "2023-11-05"
+    },
+    {
+      "name": "Mario Masberg - Freerunning & Parkour for Beginner by Group 3RUN (2011)",
+      "kind": "movie",
+      "amount": 15.22,
+      "currency": "CAD",
+      "when": "2022-11-06"
+    },
+    {
+      "name": "SPLOSH - Pack up and get out! (2022)",
+      "kind": "movie",
+      "amount": 13.63,
+      "currency": "CAD",
+      "when": "2022-11-06"
+    },
+    {
+      "name": "L5R - SUPER-HEROS, LA FACE CACHEE - Episode 1 : Yoann LEROUX, Le maître des toits (2018)",
+      "kind": "movie",
+      "amount": 5.91,
+      "currency": "CAD",
+      "when": "2022-11-06"
+    },
+    {
+      "name": "Journeyman Pictures - On The Edge Of Freedom (2019)",
+      "kind": "movie",
+      "amount": 8.73,
+      "currency": "CAD",
+      "when": "2022-11-06"
+    },
+    {
+      "name": "Journeyman Pictures - Off the Rails (2023)",
+      "kind": "movie",
+      "amount": 8.02,
+      "currency": "CAD",
+      "when": "2022-11-06"
+    },
+    {
+      "name": "Webedia Rights - From Here To There (2015)",
+      "kind": "movie",
+      "amount": 17.52,
+      "currency": "CAD",
+      "when": "2022-11-06"
+    },
+    {
+      "name": "STORROR - SuperStorror Supertramps - Thailand (2015)",
+      "kind": "movie",
+      "amount": 8.53,
+      "currency": "CAD",
+      "when": "2022-11-10"
+    },
+    {
+      "name": "Max Ward - Project Nextgen (2023)",
+      "kind": "movie",
+      "amount": 18.0,
+      "currency": "CAD",
+      "when": "2022-11-10"
+    },
+    {
+      "name": "ICTV - Ecrans de Chine Volume 8 - 2 - LES PASSES-MURAILLES (2014)",
+      "kind": "movie",
+      "amount": 5.99,
+      "currency": "CAD",
+      "when": "2022-11-10"
+    },
+    {
+      "name": "Mario Masberg - Freerunning & Parkour Conditioning Workout by Group 3RUN (2012)",
+      "kind": "movie",
+      "amount": 15.25,
+      "currency": "CAD",
+      "when": "2022-11-10"
+    },
+    {
+      "name": "Griffrock TV - Training With Pros SE1E10 Joe Eigo (2009)",
+      "kind": "movie",
+      "amount": 2.65,
+      "currency": "CAD",
+      "when": "2022-11-10"
+    },
+    {
+      "name": "Mario Masberg - Freerunning & Parkour Advanced by Group 3RUN (2012)",
+      "kind": "movie",
+      "amount": 15.16,
+      "currency": "CAD",
+      "when": "2022-11-19"
+    },
+    {
+      "name": "CNEX STUDIO CORPORATION - Bazaar Jumpers 跑酷少年 (2021)",
+      "kind": "movie",
+      "amount": 8.0,
+      "currency": "CAD",
+      "when": "2022-11-19"
+    },
+    {
+      "name": "Mario Masberg - Freerunning & Parkour Intermediate by Group 3RUN (2012)",
+      "kind": "movie",
+      "amount": 15.16,
+      "currency": "CAD",
+      "when": "2022-11-19"
     }
   ],
   "opex": [
