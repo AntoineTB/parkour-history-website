@@ -1,0 +1,59 @@
+---
+permalink: /money
+title: "Money"
+---
+
+<p>
+    Here I track the money I've invested in this project. My own time is not tracked and I have not received compensation in any form for this project.
+    Similarly, the archive contains no pirated content, all paid content (ie movies) was paid for.
+</p>
+
+<p>
+    The expenses are roughly divided between capex (ie buying content to archive, supporting creators through Patreon, etc.)
+    and opex (how much money is spent keeping this project alive).
+    The goal is to maximize the ratio of capex to opex. 
+</p>
+
+<h2>General</h2>
+
+<table>
+    <tr>
+        <td>Last updated</td>
+        <td>{{ site.data.snapshot.updated | date: "%Y-%m-%d %H:%M:%S" }}</td>
+    </tr>
+    <tr>
+        <td>Videos archived</td>
+        <td>{{ site.data.snapshot.archivedVideosCount | default: 0 }}</td>
+    </tr>
+    <tr>
+        <td>Videos waiting</td>
+        <td>{{ site.data.snapshot.waitingVideosCount | default: 0 }}</td>
+    </tr>
+    <tr>
+        <td>Last archived</td>
+        <td>
+            <a href="{{ site.data.snapshot.lastArchived.url }}" target="_blank">{{ site.data.snapshot.lastArchived.url }}
+            </a><br />
+            at {{site.data.snapshot.lastArchived.lockExpiry | date: "%Y-%m-%d %H:%M:%S" }}
+        </td>
+    </tr>
+    <tr>
+        <td>Stuck videos</td>
+        <td>{{ site.data.snapshot.stuckVideos }}</td>
+    </tr>
+</table>
+
+<h2>Bots</h2>
+
+<table>
+    <tr>
+        <th>Bot Name</th>
+        <th>Last Seen</th>
+    </tr>
+    {% for entry in site.data.snapshot.workersHealthCheck %}
+    <tr>
+        <td>{{ entry.worker }}</td>
+        <td>{{ entry.last_seen | date: "%Y-%m-%d %H:%M:%S" }}</td>
+    </tr>
+    {% endfor %}
+</table>
