@@ -1,0 +1,286 @@
+{
+  "capex": [
+    {
+      "name": "Point A Parkour - Queen City - Film Pre-Order Standard (2022)",
+      "kind": "movies",
+      "amount": 7.0,
+      "currency": "USD",
+      "when": "2022-06-03"
+    },
+    {
+      "name": "STORROR - ROOF CULTURE ASIA (2017)",
+      "kind": "movies",
+      "amount": 21.99,
+      "currency": "CAD",
+      "when": "2022-07-26"
+    },
+    {
+      "name": "Breach - Enter the Breach (2021)",
+      "kind": "movies",
+      "amount": 13.00,
+      "currency": "CAD",
+      "when": "2022-07-25"
+    },
+    {
+      "name": "The Motus Project - Sole Destroyer - A Parkour Film - DELUXE (2020)",
+      "kind": "movies",
+      "amount": 6.00,
+      "currency": "GBP",
+      "when": "2022-07-25"
+    },
+    {
+      "name": "The Motus Project - S.O.L - Deluxe (2022)",
+      "kind": "movies",
+      "amount": 10.00,
+      "currency": "GBP",
+      "when": "2022-07-25"
+    },
+    {
+      "name": "MuvMag - Physical copies of Müv #1 through #10",
+      "kind": "magazines",
+      "amount": 326.90,
+      "currency": "USD",
+      "when": "2022-07-06"
+    },
+    {
+      "name": "MuvMag - Subscription",
+      "kind": "community",
+      "amount": 49.99,
+      "currency": "USD",
+      "when": "2022-07-06"
+    },
+    {
+      "name": "MuvMag - Subscription",
+      "kind": "community",
+      "amount": 49.99,
+      "currency": "USD",
+      "when": "2023-07-06"
+    },
+    {
+      "name": "Once Is Never - Subscription",
+      "kind": "magazines",
+      "amount": 8.62,
+      "currency": "CAD",
+      "when": "2023-11-05"
+    },
+    {
+      "name": "AMPISOUND - TIMESTOP 2020 // Photo Zine",
+      "kind": "magazines",
+      "amount": 13.00,
+      "currency": "CAD",
+      "when": "2023-11-05"
+    },
+    {
+      "name": "Mario Masberg - Freerunning & Parkour for Beginner by Group 3RUN (2011)",
+      "kind": "movies",
+      "amount": 15.22,
+      "currency": "CAD",
+      "when": "2022-11-06"
+    },
+    {
+      "name": "SPLOSH - Pack up and get out! (2022)",
+      "kind": "movies",
+      "amount": 13.63,
+      "currency": "CAD",
+      "when": "2022-11-06"
+    },
+    {
+      "name": "L5R - SUPER-HEROS, LA FACE CACHEE - Episode 1 : Yoann LEROUX, Le maître des toits (2018)",
+      "kind": "movies",
+      "amount": 5.91,
+      "currency": "CAD",
+      "when": "2022-11-06"
+    },
+    {
+      "name": "Journeyman Pictures - On The Edge Of Freedom (2019)",
+      "kind": "movies",
+      "amount": 8.73,
+      "currency": "CAD",
+      "when": "2022-11-06"
+    },
+    {
+      "name": "Journeyman Pictures - Off the Rails (2023)",
+      "kind": "movies",
+      "amount": 8.02,
+      "currency": "CAD",
+      "when": "2022-11-06"
+    },
+    {
+      "name": "Webedia Rights - From Here To There (2015)",
+      "kind": "movies",
+      "amount": 17.52,
+      "currency": "CAD",
+      "when": "2022-11-06"
+    },
+    {
+      "name": "STORROR - SuperStorror Supertramps - Thailand (2015)",
+      "kind": "movies",
+      "amount": 8.53,
+      "currency": "CAD",
+      "when": "2022-11-10"
+    },
+    {
+      "name": "Max Ward - Project Nextgen (2023)",
+      "kind": "movies",
+      "amount": 18.0,
+      "currency": "CAD",
+      "when": "2022-11-10"
+    },
+    {
+      "name": "ICTV - Ecrans de Chine Volume 8 - 2 - LES PASSES-MURAILLES (2014)",
+      "kind": "movies",
+      "amount": 5.99,
+      "currency": "CAD",
+      "when": "2022-11-10"
+    },
+    {
+      "name": "Mario Masberg - Freerunning & Parkour Conditioning Workout by Group 3RUN (2012)",
+      "kind": "movies",
+      "amount": 15.25,
+      "currency": "CAD",
+      "when": "2022-11-10"
+    },
+    {
+      "name": "Griffrock TV - Training With Pros SE1E10 Joe Eigo (2009)",
+      "kind": "movies",
+      "amount": 2.65,
+      "currency": "CAD",
+      "when": "2022-11-10"
+    },
+    {
+      "name": "Mario Masberg - Freerunning & Parkour Advanced by Group 3RUN (2012)",
+      "kind": "movies",
+      "amount": 15.16,
+      "currency": "CAD",
+      "when": "2022-11-19"
+    },
+    {
+      "name": "CNEX STUDIO CORPORATION - Bazaar Jumpers 跑酷少年 (2021)",
+      "kind": "movies",
+      "amount": 8.0,
+      "currency": "CAD",
+      "when": "2022-11-19"
+    },
+    {
+      "name": "Mario Masberg - Freerunning & Parkour Intermediate by Group 3RUN (2012)",
+      "kind": "movies",
+      "amount": 15.16,
+      "currency": "CAD",
+      "when": "2022-11-19"
+    }
+  ],
+  "opex": [
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 17.5624308179,
+      "currency": "USD",
+      "when": "2022-11-01"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 18.0580628567,
+      "currency": "USD",
+      "when": "2022-12-01"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 18.1038720644,
+      "currency": "USD",
+      "when": "2023-01-01"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 17.057008913,
+      "currency": "USD",
+      "when": "2023-02-01"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 18.4536914512,
+      "currency": "USD",
+      "when": "2023-03-01"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 18.1278831212,
+      "currency": "USD",
+      "when": "2023-04-01"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 18.5853404839,
+      "currency": "USD",
+      "when": "2023-05-01"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 18.1699826421,
+      "currency": "USD",
+      "when": "2023-06-01"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 18.6000681247,
+      "currency": "USD",
+      "when": "2023-07-01"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 18.5701466788,
+      "currency": "USD",
+      "when": "2023-08-01"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 18.1382393724,
+      "currency": "USD",
+      "when": "2023-09-01"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 18.6654488377,
+      "currency": "USD",
+      "when": "2023-10-01"
+    },
+    {
+      "what": "parkourhistory.com",
+      "kind": "domain name",
+      "amount": 17,
+      "currency": "CAD",
+      "when": "2023-06-08"
+    },
+    {
+      "what": "parkourhistory.com",
+      "kind": "domain name",
+      "amount": 17,
+      "currency": "CAD",
+      "when": "2022-06-07"
+    },
+    {
+      "what": "parkourhistory.com",
+      "kind": "domain name",
+      "amount": 17,
+      "currency": "CAD",
+      "when": "2021-06-07"
+    },
+    {
+      "what": "parkourarchive.com",
+      "kind": "domain name",
+      "amount": 24.84,
+      "currency": "CAD",
+      "when": "2023-11-05"
+    }
+  ]
+}

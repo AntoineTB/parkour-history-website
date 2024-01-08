@@ -1,0 +1,36 @@
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  money:
+    runs-on: ubuntu-latest
+
+    container: node:16-bullseye
+    
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: ${{ github.head_ref }}
+        
+    - name: Setup directory ownership
+      run : git config --global --add safe.directory /__w/parkour-history-website/parkour-history-website
+
+    - name: Setup app dependencies
+      run: |
+        cd ./jobs/money
+        npm install
+
+    - name: Run Money
+      run: |
+        cd ./jobs/money
+        node index.js
+
+    - name: Commit changes
+      uses: EndBug/add-and-commit@v8
+      with:
+        author_name: Parkour History Bot
+        author_email: parkour.history.project@gmail.com
+        message: 'Update money_compiled.json'
+        add: './docs/_data/money_compiled.json'
+        push: true

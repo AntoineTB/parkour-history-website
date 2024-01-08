@@ -1,0 +1,482 @@
+{
+  "updated": "2024-01-08T02:12:57.508Z",
+  "lastEntry": "2023-11-05",
+  "combined": [
+    {
+      "name": "Point A Parkour - Queen City - Film Pre-Order Standard (2022)",
+      "kind": "movies",
+      "amount": 7,
+      "currency": "USD",
+      "when": "2022-06-03",
+      "type": "capex",
+      "formatted": "US$7.00"
+    },
+    {
+      "name": "STORROR - ROOF CULTURE ASIA (2017)",
+      "kind": "movies",
+      "amount": 21.99,
+      "currency": "CAD",
+      "when": "2022-07-26",
+      "type": "capex",
+      "formatted": "CA$21.99"
+    },
+    {
+      "name": "Breach - Enter the Breach (2021)",
+      "kind": "movies",
+      "amount": 13,
+      "currency": "CAD",
+      "when": "2022-07-25",
+      "type": "capex",
+      "formatted": "CA$13.00"
+    },
+    {
+      "name": "The Motus Project - Sole Destroyer - A Parkour Film - DELUXE (2020)",
+      "kind": "movies",
+      "amount": 6,
+      "currency": "GBP",
+      "when": "2022-07-25",
+      "type": "capex",
+      "formatted": "£6.00"
+    },
+    {
+      "name": "The Motus Project - S.O.L - Deluxe (2022)",
+      "kind": "movies",
+      "amount": 10,
+      "currency": "GBP",
+      "when": "2022-07-25",
+      "type": "capex",
+      "formatted": "£10.00"
+    },
+    {
+      "name": "MuvMag - Physical copies of Müv #1 through #10",
+      "kind": "magazines",
+      "amount": 326.9,
+      "currency": "USD",
+      "when": "2022-07-06",
+      "type": "capex",
+      "formatted": "US$326.90"
+    },
+    {
+      "name": "MuvMag - Subscription",
+      "kind": "community",
+      "amount": 49.99,
+      "currency": "USD",
+      "when": "2022-07-06",
+      "type": "capex",
+      "formatted": "US$49.99"
+    },
+    {
+      "name": "MuvMag - Subscription",
+      "kind": "community",
+      "amount": 49.99,
+      "currency": "USD",
+      "when": "2023-07-06",
+      "type": "capex",
+      "formatted": "US$49.99"
+    },
+    {
+      "name": "Once Is Never - Subscription",
+      "kind": "magazines",
+      "amount": 8.62,
+      "currency": "CAD",
+      "when": "2023-11-05",
+      "type": "capex",
+      "formatted": "CA$8.62"
+    },
+    {
+      "name": "AMPISOUND - TIMESTOP 2020 // Photo Zine",
+      "kind": "magazines",
+      "amount": 13,
+      "currency": "CAD",
+      "when": "2023-11-05",
+      "type": "capex",
+      "formatted": "CA$13.00"
+    },
+    {
+      "name": "Mario Masberg - Freerunning & Parkour for Beginner by Group 3RUN (2011)",
+      "kind": "movies",
+      "amount": 15.22,
+      "currency": "CAD",
+      "when": "2022-11-06",
+      "type": "capex",
+      "formatted": "CA$15.22"
+    },
+    {
+      "name": "SPLOSH - Pack up and get out! (2022)",
+      "kind": "movies",
+      "amount": 13.63,
+      "currency": "CAD",
+      "when": "2022-11-06",
+      "type": "capex",
+      "formatted": "CA$13.63"
+    },
+    {
+      "name": "L5R - SUPER-HEROS, LA FACE CACHEE - Episode 1 : Yoann LEROUX, Le maître des toits (2018)",
+      "kind": "movies",
+      "amount": 5.91,
+      "currency": "CAD",
+      "when": "2022-11-06",
+      "type": "capex",
+      "formatted": "CA$5.91"
+    },
+    {
+      "name": "Journeyman Pictures - On The Edge Of Freedom (2019)",
+      "kind": "movies",
+      "amount": 8.73,
+      "currency": "CAD",
+      "when": "2022-11-06",
+      "type": "capex",
+      "formatted": "CA$8.73"
+    },
+    {
+      "name": "Journeyman Pictures - Off the Rails (2023)",
+      "kind": "movies",
+      "amount": 8.02,
+      "currency": "CAD",
+      "when": "2022-11-06",
+      "type": "capex",
+      "formatted": "CA$8.02"
+    },
+    {
+      "name": "Webedia Rights - From Here To There (2015)",
+      "kind": "movies",
+      "amount": 17.52,
+      "currency": "CAD",
+      "when": "2022-11-06",
+      "type": "capex",
+      "formatted": "CA$17.52"
+    },
+    {
+      "name": "STORROR - SuperStorror Supertramps - Thailand (2015)",
+      "kind": "movies",
+      "amount": 8.53,
+      "currency": "CAD",
+      "when": "2022-11-10",
+      "type": "capex",
+      "formatted": "CA$8.53"
+    },
+    {
+      "name": "Max Ward - Project Nextgen (2023)",
+      "kind": "movies",
+      "amount": 18,
+      "currency": "CAD",
+      "when": "2022-11-10",
+      "type": "capex",
+      "formatted": "CA$18.00"
+    },
+    {
+      "name": "ICTV - Ecrans de Chine Volume 8 - 2 - LES PASSES-MURAILLES (2014)",
+      "kind": "movies",
+      "amount": 5.99,
+      "currency": "CAD",
+      "when": "2022-11-10",
+      "type": "capex",
+      "formatted": "CA$5.99"
+    },
+    {
+      "name": "Mario Masberg - Freerunning & Parkour Conditioning Workout by Group 3RUN (2012)",
+      "kind": "movies",
+      "amount": 15.25,
+      "currency": "CAD",
+      "when": "2022-11-10",
+      "type": "capex",
+      "formatted": "CA$15.25"
+    },
+    {
+      "name": "Griffrock TV - Training With Pros SE1E10 Joe Eigo (2009)",
+      "kind": "movies",
+      "amount": 2.65,
+      "currency": "CAD",
+      "when": "2022-11-10",
+      "type": "capex",
+      "formatted": "CA$2.65"
+    },
+    {
+      "name": "Mario Masberg - Freerunning & Parkour Advanced by Group 3RUN (2012)",
+      "kind": "movies",
+      "amount": 15.16,
+      "currency": "CAD",
+      "when": "2022-11-19",
+      "type": "capex",
+      "formatted": "CA$15.16"
+    },
+    {
+      "name": "CNEX STUDIO CORPORATION - Bazaar Jumpers 跑酷少年 (2021)",
+      "kind": "movies",
+      "amount": 8,
+      "currency": "CAD",
+      "when": "2022-11-19",
+      "type": "capex",
+      "formatted": "CA$8.00"
+    },
+    {
+      "name": "Mario Masberg - Freerunning & Parkour Intermediate by Group 3RUN (2012)",
+      "kind": "movies",
+      "amount": 15.16,
+      "currency": "CAD",
+      "when": "2022-11-19",
+      "type": "capex",
+      "formatted": "CA$15.16"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 17.5624308179,
+      "currency": "USD",
+      "when": "2022-11-01",
+      "type": "opex",
+      "formatted": "US$17.56"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 18.0580628567,
+      "currency": "USD",
+      "when": "2022-12-01",
+      "type": "opex",
+      "formatted": "US$18.06"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 18.1038720644,
+      "currency": "USD",
+      "when": "2023-01-01",
+      "type": "opex",
+      "formatted": "US$18.10"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 17.057008913,
+      "currency": "USD",
+      "when": "2023-02-01",
+      "type": "opex",
+      "formatted": "US$17.06"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 18.4536914512,
+      "currency": "USD",
+      "when": "2023-03-01",
+      "type": "opex",
+      "formatted": "US$18.45"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 18.1278831212,
+      "currency": "USD",
+      "when": "2023-04-01",
+      "type": "opex",
+      "formatted": "US$18.13"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 18.5853404839,
+      "currency": "USD",
+      "when": "2023-05-01",
+      "type": "opex",
+      "formatted": "US$18.59"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 18.1699826421,
+      "currency": "USD",
+      "when": "2023-06-01",
+      "type": "opex",
+      "formatted": "US$18.17"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 18.6000681247,
+      "currency": "USD",
+      "when": "2023-07-01",
+      "type": "opex",
+      "formatted": "US$18.60"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 18.5701466788,
+      "currency": "USD",
+      "when": "2023-08-01",
+      "type": "opex",
+      "formatted": "US$18.57"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 18.1382393724,
+      "currency": "USD",
+      "when": "2023-09-01",
+      "type": "opex",
+      "formatted": "US$18.14"
+    },
+    {
+      "what": "AWS",
+      "kind": "archive",
+      "amount": 18.6654488377,
+      "currency": "USD",
+      "when": "2023-10-01",
+      "type": "opex",
+      "formatted": "US$18.67"
+    },
+    {
+      "what": "parkourhistory.com",
+      "kind": "domain name",
+      "amount": 17,
+      "currency": "CAD",
+      "when": "2023-06-08",
+      "type": "opex",
+      "formatted": "CA$17.00"
+    },
+    {
+      "what": "parkourhistory.com",
+      "kind": "domain name",
+      "amount": 17,
+      "currency": "CAD",
+      "when": "2022-06-07",
+      "type": "opex",
+      "formatted": "CA$17.00"
+    },
+    {
+      "what": "parkourhistory.com",
+      "kind": "domain name",
+      "amount": 17,
+      "currency": "CAD",
+      "when": "2021-06-07",
+      "type": "opex",
+      "formatted": "CA$17.00"
+    },
+    {
+      "what": "parkourarchive.com",
+      "kind": "domain name",
+      "amount": 24.84,
+      "currency": "CAD",
+      "when": "2023-11-05",
+      "type": "opex",
+      "formatted": "CA$24.84"
+    }
+  ],
+  "capexSummary": [
+    {
+      "currency": "USD",
+      "total": 433.88,
+      "formatted": "US$433.88",
+      "transactions": 4
+    },
+    {
+      "currency": "CAD",
+      "total": 214.38,
+      "formatted": "CA$214.38",
+      "transactions": 18
+    },
+    {
+      "currency": "GBP",
+      "total": 16,
+      "formatted": "£16.00",
+      "transactions": 2
+    }
+  ],
+  "opexSummary": [
+    {
+      "currency": "USD",
+      "total": 218.09217536399998,
+      "formatted": "US$218.09",
+      "transactions": 12
+    },
+    {
+      "currency": "CAD",
+      "total": 75.84,
+      "formatted": "CA$75.84",
+      "transactions": 4
+    }
+  ],
+  "ratioCapexOpex": [
+    {
+      "currency": "USD",
+      "ratio": "67% capex"
+    },
+    {
+      "currency": "CAD",
+      "ratio": "74% capex"
+    },
+    {
+      "currency": "GBP",
+      "ratio": "100% capex"
+    }
+  ],
+  "summaryByCategory": {
+    "movies (capex)": [
+      {
+        "kind": "movies",
+        "type": "capex",
+        "currency": "USD",
+        "transactions": 1,
+        "total": "US$7.00"
+      },
+      {
+        "kind": "movies",
+        "type": "capex",
+        "currency": "CAD",
+        "transactions": 16,
+        "total": "CA$192.76"
+      },
+      {
+        "kind": "movies",
+        "type": "capex",
+        "currency": "GBP",
+        "transactions": 2,
+        "total": "£16.00"
+      }
+    ],
+    "magazines (capex)": [
+      {
+        "kind": "magazines",
+        "type": "capex",
+        "currency": "USD",
+        "transactions": 1,
+        "total": "US$326.90"
+      },
+      {
+        "kind": "magazines",
+        "type": "capex",
+        "currency": "CAD",
+        "transactions": 2,
+        "total": "CA$21.62"
+      }
+    ],
+    "community (capex)": [
+      {
+        "kind": "community",
+        "type": "capex",
+        "currency": "USD",
+        "transactions": 2,
+        "total": "US$99.98"
+      }
+    ],
+    "archive (opex)": [
+      {
+        "kind": "archive",
+        "type": "opex",
+        "currency": "USD",
+        "transactions": 12,
+        "total": "US$218.09"
+      }
+    ],
+    "domain name (opex)": [
+      {
+        "kind": "domain name",
+        "type": "opex",
+        "currency": "CAD",
+        "transactions": 4,
+        "total": "CA$75.84"
+      }
+    ]
+  }
+}
