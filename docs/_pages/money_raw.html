@@ -1,0 +1,36 @@
+---
+permalink: /money_raw
+title: "Money Raw"
+classes: wide
+---
+<div><small> Last Updated : {{ site.data.money_compiled.updated | date: "%Y-%m-%d %H:%M:%S" }}</small></div>
+<div><small> Data Freshness: {{ site.data.money_compiled.lastEntry | date: "%Y-%m-%d" }}</small></div>
+<div>&nbsp;</div>
+
+<p>
+    This is the low-level tracking of the money invested in this project.
+    My own time is not tracked and I have not (yet?) received compensation in any form for this project.
+</p>
+
+<p>
+    For a more high-level view consider looking at <a href='/money'>this page</a>
+</p>
+
+<table>
+    <tr>
+        <th>Type</th>
+        <th>Kind</th>
+        <th>When</th>
+        <th>What</th>
+        <th>Cost</th>
+    </tr>
+    {% for entry in site.data.money_compiled.combined %}
+    <tr>
+        <td> {{ entry.type }} </td>
+        <td> {{ entry.kind }} </td>
+        <td> {{ entry.when | replace: "-", "&#8209;" }} </td>
+        <td> {{ entry.name }} {{ entry.what }} </td>
+        <td> {{ entry.formatted }} </td>
+    </tr>
+    {% endfor %}
+</table>

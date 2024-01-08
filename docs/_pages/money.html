@@ -2,58 +2,112 @@
 permalink: /money
 title: "Money"
 ---
+<div><small> Last Updated : {{ site.data.money_compiled.updated | date: "%Y-%m-%d %H:%M:%S" }}</small></div>
+<div><small> Data Freshness: {{ site.data.money_compiled.lastEntry | date: "%Y-%m-%d" }}</small></div>
+<div>&nbsp;</div>
 
 <p>
-    Here I track the money I've invested in this project. My own time is not tracked and I have not received compensation in any form for this project.
-    Similarly, the archive contains no pirated content, all paid content (ie movies) was paid for.
+    Here I track the money invested in this project.
+    My own time is not tracked and I have not (yet?) received compensation in any form for this project.
 </p>
-
 <p>
-    The expenses are roughly divided between capex (ie buying content to archive, supporting creators through Patreon, etc.)
-    and opex (how much money is spent keeping this project alive).
-    The goal is to maximize the ratio of capex to opex. 
+    The archive contains no pirated content: all paid content (ie movies) was paid for.
+    Lots of content was obtained for free, when it was legally accessible as such, for example on YouTube.
+</p>
+<p>
+    Currencies are a pain to convert, so I don't do that ¯\_(ツ)_/¯
+</p>
+<p>
+    Also, the list of transactions is maintained manually, so this may be some months old.
+    The underlying data can be found <a href='/money_raw'>here</a>
 </p>
 
-<h2>General</h2>
+<h2>
+    Capex / Opex
+</h2>
+
+The expenses are roughly divided between:
+<ul>
+    <li>
+        <b>capex</b>
+        <ul>
+            <li>buying content to archive</li>
+            <li>supporting creators through Patreon</li>
+            <li>etc.</li>
+        </ul>
+    </li>
+    <li>
+        <b>opex</b>
+        <ul>
+            <li>how much money is spent keeping this website alive</li>
+            <li>storage costs for the archive</li>
+            <li>etc.</li>
+        </ul>
+    </li>
+</ul>
+<p>
+    I care about this distinction because opex is not money that goes to creators.
+    Given the choice I'd MUCH rather see the budget go to the parkour community than some bills.
+</p>
 
 <table>
     <tr>
-        <td>Last updated</td>
-        <td>{{ site.data.snapshot.updated | date: "%Y-%m-%d %H:%M:%S" }}</td>
+        <th>Currency</th>
+        <th>Ratio of capex to opex</th>
     </tr>
+    {% for entry in site.data.money_compiled.ratioCapexOpex %}
     <tr>
-        <td>Videos archived</td>
-        <td>{{ site.data.snapshot.archivedVideosCount | default: 0 }}</td>
+        <td> {{ entry.currency }} </td>
+        <td> {{ entry.ratio }} </td>
     </tr>
+    {% endfor %}
+</table>
+
+<h4>Donations & Financing (all time)</h4>
+<p>No donations so far</p>
+
+<h4>Expenses (all time)</h4>
+<table>
     <tr>
-        <td>Videos waiting</td>
-        <td>{{ site.data.snapshot.waitingVideosCount | default: 0 }}</td>
-    </tr>
-    <tr>
-        <td>Last archived</td>
+        <td>capex</td>
         <td>
-            <a href="{{ site.data.snapshot.lastArchived.url }}" target="_blank">{{ site.data.snapshot.lastArchived.url }}
-            </a><br />
-            at {{site.data.snapshot.lastArchived.lockExpiry | date: "%Y-%m-%d %H:%M:%S" }}
+            <ul>
+                {% for entry in site.data.money_compiled.capexSummary %}
+                <li>{{ entry.transactions }} purchases for a total of {{ entry.formatted }}</li>
+                {% endfor %}
+            </ul>
         </td>
     </tr>
     <tr>
-        <td>Stuck videos</td>
-        <td>{{ site.data.snapshot.stuckVideos }}</td>
+        <td>opex</td>
+        <td>
+            <ul>
+                {% for entry in site.data.money_compiled.opexSummary %}
+                <li>{{ entry.transactions }} bills paid for a total of {{ entry.formatted }}</li>
+                {% endfor %}
+            </ul>
+        </td>
     </tr>
 </table>
 
-<h2>Bots</h2>
+<h5>By Category</h5>
 
 <table>
+    {% for entry in site.data.money_compiled.summaryByCategory %}
     <tr>
-        <th>Bot Name</th>
-        <th>Last Seen</th>
-    </tr>
-    {% for entry in site.data.snapshot.workersHealthCheck %}
-    <tr>
-        <td>{{ entry.worker }}</td>
-        <td>{{ entry.last_seen | date: "%Y-%m-%d %H:%M:%S" }}</td>
+        <td>
+            {{ entry[0] }}
+        </td>
+        <td>
+            <ul>
+                {% for entryByCurrency in entry[1] %}
+                <li>
+                    {{entryByCurrency.total }} ({{ entryByCurrency.transactions }}
+                    transaction{%if entryByCurrency.transactions > 1%}s{%endif%})
+                </li>
+                {% endfor %}
+            </ul>
+        </td>
     </tr>
     {% endfor %}
 </table>
