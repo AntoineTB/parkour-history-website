@@ -32,4 +32,6 @@ The archived content is not redistributed nor used for rehosting at this time.
 
 ## I have questions about this project
 
+Check out the [FAQ](/faq) maybe?
+
 Feel free to reach out at [{{ site.email }}](mailto:{{ site.email }}).
