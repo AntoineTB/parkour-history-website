@@ -46,7 +46,7 @@ try {
     totalRuntime,
     lastArchived,
     workersHealthCheck,
-  });
+  }, null, 2);
   console.log(content);
   await writeFile("../../docs/_data/snapshot.json", content);
 } catch (error) {
