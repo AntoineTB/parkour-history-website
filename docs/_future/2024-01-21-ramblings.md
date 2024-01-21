@@ -8,6 +8,7 @@ excerpt: Some thoughts about tech and how it relates to the archive
 - Cory Doctorow: Internet Con
 - Competitive Compatibility: ComCom
 - Google Graveyard
+  - Google Domains
 - Parallel to parkour:
   - Using what's there differently, in unplanned ways
   - In tech circle this is known as a hacking
@@ -15,3 +16,4 @@ excerpt: Some thoughts about tech and how it relates to the archive
   - ... need refresher
 - Internet Archive
 - Libraries
+  - https://www.youtube.com/watch?v=NOYa3YzVtyk
