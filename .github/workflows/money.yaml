@@ -1,6 +1,8 @@
 on:
   workflow_dispatch:
   push:
+    paths:
+      - 'docs/_data/money.json'
 
 jobs:
   money:
