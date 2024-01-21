@@ -73,7 +73,7 @@ The expenses are roughly divided between:
         <td>
             <ul>
                 {% for entry in site.data.money_compiled.capexSummary %}
-                <li>{{ entry.transactions }} purchases for a total of {{ entry.formatted }}</li>
+                <li>{{ entry.transactions }} purchases in {{ entry.currency }} for a total of {{ entry.formatted }}</li>
                 {% endfor %}
             </ul>
         </td>
@@ -83,7 +83,7 @@ The expenses are roughly divided between:
         <td>
             <ul>
                 {% for entry in site.data.money_compiled.opexSummary %}
-                <li>{{ entry.transactions }} bills paid for a total of {{ entry.formatted }}</li>
+                <li>{{ entry.transactions }} bills paid in {{ entry.currency }} for a total of {{ entry.formatted }}</li>
                 {% endfor %}
             </ul>
         </td>
@@ -102,7 +102,7 @@ The expenses are roughly divided between:
             <ul>
                 {% for entryByCurrency in entry[1] %}
                 <li>
-                    {{entryByCurrency.total }} ({{ entryByCurrency.transactions }}
+                    {{ entryByCurrency.total }} ({{ entryByCurrency.transactions }}
                     transaction{%if entryByCurrency.transactions > 1%}s{%endif%})
                 </li>
                 {% endfor %}
