@@ -1,1 +1,28 @@
-{"updated":"2024-01-21T08:25:45.868Z","archivedVideosCount":"12819","waitingVideosCount":"1","stuckVideos":"403","totalRuntime":{"hours":"1240.69","days":"51.70"},"lastArchived":{"url":"https://www.youtube.com/watch?v=9viM4hMQn18","lockExpiry":"2024-01-21T07:37:14.204Z"},"workersHealthCheck":[{"worker":"kaltrane","last_seen":"2023-02-22T09:42:45.772Z"},{"worker":"luther","last_seen":"2022-07-02T15:32:58.699Z"},{"worker":"kalamar","last_seen":"2024-01-21T08:25:42.283Z"}]}
+{
+  "updated": "2024-01-21T20:22:38.270Z",
+  "archivedVideosCount": "12820",
+  "waitingVideosCount": null,
+  "stuckVideos": "404",
+  "totalRuntime": {
+    "hours": "1240.70",
+    "days": "51.70"
+  },
+  "lastArchived": {
+    "url": "https://www.youtube.com/watch?v=PgtSDc1m3Rw",
+    "lockExpiry": "2024-01-21T21:08:18.373Z"
+  },
+  "workersHealthCheck": [
+    {
+      "worker": "kalamar",
+      "last_seen": "2024-01-21T20:22:29.055Z"
+    },
+    {
+      "worker": "kaltrane",
+      "last_seen": "2023-02-22T09:42:45.772Z"
+    },
+    {
+      "worker": "luther",
+      "last_seen": "2022-07-02T15:32:58.699Z"
+    }
+  ]
+}
