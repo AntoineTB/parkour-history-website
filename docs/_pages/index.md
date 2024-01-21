@@ -3,7 +3,7 @@ permalink: /
 title: "About this project"
 ---
 
-Videos are the core of parkour's culture. They're how we share movement and in turn they shape how we move. 
+Videos are core to parkour's culture. They're how we share movement and in turn they shape how we move. 
 *Parkour History*'s goal is to archive all parkour videos so that none are lost and so our culture lasts.
 
 ## Why archive parkour videos?
