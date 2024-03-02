@@ -1,5 +1,5 @@
 {
-  "updated": "2024-03-02T14:22:21.083Z",
+  "updated": "2024-03-02T16:25:16.835Z",
   "archivedVideosCount": "12981",
   "waitingVideosCount": null,
   "stuckVideos": "402",
@@ -17,12 +17,12 @@
       "last_seen": "2023-02-22T09:42:45.772Z"
     },
     {
-      "worker": "luther",
-      "last_seen": "2022-07-02T15:32:58.699Z"
+      "worker": "kalamar",
+      "last_seen": "2024-03-02T16:25:06.488Z"
     },
     {
-      "worker": "kalamar",
-      "last_seen": "2024-03-02T14:22:06.200Z"
+      "worker": "luther",
+      "last_seen": "2022-07-02T15:32:58.699Z"
     }
   ]
 }
