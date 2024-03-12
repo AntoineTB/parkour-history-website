@@ -1,15 +1,15 @@
 {
-  "updated": "2024-03-12T04:27:13.528Z",
-  "archivedVideosCount": "13013",
+  "updated": "2024-03-12T06:26:01.540Z",
+  "archivedVideosCount": "13014",
   "waitingVideosCount": null,
   "stuckVideos": "400",
   "totalRuntime": {
-    "hours": "1254.78",
+    "hours": "1254.79",
     "days": "52.28"
   },
   "lastArchived": {
-    "url": "https://www.youtube.com/watch?v=miFON1WhRiA",
-    "lockExpiry": "2024-03-11T18:39:48.754Z"
+    "url": "https://www.youtube.com/watch?v=eKKvoYdd3Yc",
+    "lockExpiry": "2024-03-12T07:08:12.961Z"
   },
   "workersHealthCheck": [
     {
@@ -17,12 +17,12 @@
       "last_seen": "2023-02-22T09:42:45.772Z"
     },
     {
-      "worker": "luther",
-      "last_seen": "2022-07-02T15:32:58.699Z"
+      "worker": "kalamar",
+      "last_seen": "2024-03-12T06:25:55.091Z"
     },
     {
-      "worker": "kalamar",
-      "last_seen": "2024-03-12T04:27:09.803Z"
+      "worker": "luther",
+      "last_seen": "2022-07-02T15:32:58.699Z"
     }
   ]
 }
