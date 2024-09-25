@@ -1,5 +1,5 @@
 {
-  "updated": "2024-09-25T06:35:27.253Z",
+  "updated": "2024-09-25T08:34:13.311Z",
   "archivedVideosCount": "13779",
   "waitingVideosCount": "1",
   "stuckVideos": "373",
@@ -18,7 +18,7 @@
     },
     {
       "worker": "kalamar",
-      "last_seen": "2024-09-25T06:35:23.551Z"
+      "last_seen": "2024-09-25T08:34:08.836Z"
     },
     {
       "worker": "luther",
