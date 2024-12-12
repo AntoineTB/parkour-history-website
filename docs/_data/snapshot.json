@@ -1,5 +1,5 @@
 {
-  "updated": "2024-12-12T04:34:27.464Z",
+  "updated": "2024-12-12T06:38:35.194Z",
   "archivedVideosCount": "14151",
   "waitingVideosCount": null,
   "stuckVideos": "381",
@@ -13,12 +13,12 @@
   },
   "workersHealthCheck": [
     {
-      "worker": "kaltrane",
-      "last_seen": "2023-02-22T09:42:45.772Z"
+      "worker": "kalamar",
+      "last_seen": "2024-12-12T06:38:30.639Z"
     },
     {
-      "worker": "kalamar",
-      "last_seen": "2024-12-12T04:34:15.519Z"
+      "worker": "kaltrane",
+      "last_seen": "2023-02-22T09:42:45.772Z"
     },
     {
       "worker": "luther",
