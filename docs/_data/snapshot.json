@@ -1,7 +1,7 @@
 {
-  "updated": "2025-04-28T18:38:15.804Z",
+  "updated": "2025-04-28T20:28:06.950Z",
   "archivedVideosCount": "14478",
-  "waitingVideosCount": "129",
+  "waitingVideosCount": "130",
   "stuckVideos": "383",
   "totalRuntime": {
     "hours": "1459.51",
@@ -18,7 +18,7 @@
     },
     {
       "worker": "kalamar",
-      "last_seen": "2025-04-28T18:38:01.891Z"
+      "last_seen": "2025-04-28T20:27:58.632Z"
     },
     {
       "worker": "luther",
